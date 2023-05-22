@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LILILA.</title>
+    <link rel="stylesheet" href="index.css">
+    <!--<script src="https://cdn.jsdelivr.net/npn/chart.js"></script>-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <META NAME="Generator" CONTENT="EditPlus">
+    <META NAME="Author" CONTENT="">
+    <META NAME="Keywords" CONTENT="">
+    <META NAME="Description" CONTENT="">
+
+<style>
+  /*reset*/
+    head, body {
+
+    height: 100%;
+
+    padding: 0;
+
+    margin: 0;
+
+    background: white;
+
+  }
+  body{
+    background-image: url(nen.png);
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul#main-menu{
+    display: flex;
+    padding-top: 25px;
+  }
+  ul#main-menu a{
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-right: 30px;
+    color: #636161;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 18px;
+  }
+  h3{
+    font-size:20px;
+    margin-left: -160px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+  header{
+    position: fixed;
+    top:-10px;
+    left:0;
+    width:100%;
+    border-bottom: 3px solid #000;
+    padding: 1px 0px;
+    background-color: aliceblue;
+    height: 80px;
+  }
+
+  #banner{
+    background-image: url(bg01.jpg);
+    min-height: 72px;
+    width: 100%;
+  }
+
+  
+
+  #backtop{
+    width:50px;
+    height: 50px;
+    background: #636161;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+  }
+
+  #wrapper{
+    width:960px;
+    margin:auto;
+  }
+  
+</style>
+
+
+</head>
+<body>
+    <div class="wrapper">
+      <header>
+        <div class="inner-header container">
+          <h3><a href="" class="logo"><img src="./assets/img/logo.jpg" width="218px"></a></h3>
+          <nav>
+            <ul id="main-menu">
+              <li><a href=""></a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Economy</a></li>
+              <li><a href="">Life</a></li>
+              <li><a href="">Youth</a></li>
+              <li><a href="">Education</a></li>
+              <li><a href="">Tourism</a></li>
+              <li><a href="">Entertainment</a></li>
+              <li><a href="">Technology - game</a></li>
+              <li><a href=""></a></li>
+              <li><a href="">Fashion</a></li>
+              <li><a href=""></a></li>
+              <li><a href=""><img src="hamburger_menu_icon.png" width="22px"></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </nav>  
+        </div>
+      </header>
+
+      <div id="banner">
+
+      </div>
+
+      <div id="content" class="container">
+        <br>
+        <input class="search" type="text" placeholder="     Search" style="width: 638px; margin-left:238px;border-radius: 3px;">
+        <img class="search" src="211818_search_icon.png" width="22px" style="margin-left: -640px;margin-bottom:1px">
+      </div>
+
+      <div id="backtop">
+        <img src="chevron_up_r_icon.png" height="40px">
+      </div>
+
+  
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<!--ham quay ve toobar-->
+<script>
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      if($(this).scrollTop()){
+        $('#backtop').fadeIn();
+      }else{
+        $('#backtop').fadeOut();
+      }
+    });
+    $("#backtop").click(function(){
+      $('html, body').animate({scrollTop:0},100);
+    });
+  });
+</script>
+</html>

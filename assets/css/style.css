@@ -1,0 +1,139 @@
+.page{
+    display: flex;
+    flex-direction: column;
+}
+.sub-nav {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-nav nav {
+    margin-top: 10px;
+}
+
+.sub-nav ul {
+    display: flex;
+    float: left;
+    list-style: none;
+}
+
+.sub-nav h1 {
+    font-size: 30px;
+    margin-right: 35px;
+    line-height: 50px;
+}
+
+.sub-nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sub-nav ul li {
+    margin-right: 35px;
+
+}
+
+.sub-nav ul li a {
+    font-size: 18px;
+    line-height: 58px;
+}
+
+.sub-nav .title{
+    font-size: 26px;
+}
+
+.content{
+    width: 100%;
+    float: left;
+}
+.wrap-content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.item-new{
+    width: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.item-new img{
+    width: 300px;
+    height: 180px;
+}
+
+.item-new a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    float: left;
+}
+.left{
+    width: 70%;
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    float: left;
+}
+.left ul{
+    list-style: none;
+}
+.left .info{
+    margin-left: 20px;
+}
+
+.left li{
+    position: relative;
+    display: flex;
+    float: left;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+.left li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+.left li p{
+     margin-top: 20px;
+}
+.right{
+    /* margin-left: 60px; */
+    width: 30%;
+}
+.right img{
+    width:400px;
+    height: auto;
+}
+
+/*phantrang*/
+.listPage{
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+  }
+
+  .listPage li{
+    background-color: #ffffffBD;
+    padding:20px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: ponter;
+  }
+
+  .listPage .active{
+    background-color:#55bec0;
+    color: #fff;
+  }

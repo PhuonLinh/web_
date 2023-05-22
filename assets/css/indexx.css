@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  color: #4f4f4f;
+  font-family: "Roboto", sans-serif;
+}
+.top-header {
+  width: 100%;
+  float: left;
+  padding: 0 8px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.container {
+  width: 100%;
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+.logo {
+  width: 100%;
+  max-width: 300px;
+}
+.search-box {
+  position: absolute;
+  top: 17px;
+  right: 150px;
+  background: #fff;
+  border-radius: 30px;
+  border: 1px solid #e5e5e5;
+}
+.search-box .search-text {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+.search-box .search-btn {
+  font-size: 18px;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 60%;
+  padding: 10px;
+}
+.sign-up {
+  position: absolute;
+  right: 20px;
+  top: 27px;
+}
+.sign-up a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+.sign-up a:hover {
+  color: #087cce;
+}
+.wrap-main-nav {
+  width: 100%;
+  float: left;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #55bec0;
+}
+.main-nav {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+.main-nav ul {
+  display: flex;
+  max-width: 1370px;
+  padding: 0 15px;
+  list-style: none;
+  justify-content: space-between;
+  margin-left: 120px;
+}
+.main-nav ul a {
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/*CONTENT*/
+.main-content{
+  width:100%;
+  float:left;
+}
+.wrap-content {
+  width: 100%;
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.left-content{
+    width: 60%;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    float: left;
+}
+.list-content{
+    list-style: none;
+}
+.list-content li{
+    position: relative;
+    display: flex;
+    float: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.list-content li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list-content li a:hover{
+  color:#087cce
+}
+.list-content li p{
+    margin-top: 15px;
+}
+.content-info{
+    margin-left: 20px;
+    width: 360px;
+}
+.right-content{
+    width: 40%;
+    position: absolute;
+    right: 0;
+}
+
+/*FOOTER*/
+.footer {
+  width: 100%;
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+  clear: both;
+}
+.wrap-footer {
+  border-top: 5px solid #e5e5e5;
+  padding: 20px 0;
+  margin-top: 15px;
+  height: 300px;
+}
+
+.head-footer {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+.head-footer ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-right: 70px;
+  width: 700px;
+}
+.head-footer ul li {
+  margin: 0 0 15px;
+}
+.head-footer ul a {
+  text-decoration: none;
+  color: #000;
+}
+.head-footer ul a:hover{
+  text-decoration: underline;
+  color: #087cce;
+}
+.contacts {
+  width: 550px;
+}
+.contacts .download-app button {
+  margin: 10px 0 10px 0;
+  cursor: pointer;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e5e5e5;
+}
+.contact i {
+  margin-right: 10px;
+}
+.contact a {
+  text-decoration: none;
+  color: #000;
+  margin: 5px 0 5px 0;
+}
+.contact a:nth-child(2) {
+  margin: 5px 0 5px 0;
+}
+
+.hotline {
+  margin-top: 10px;
+}
+.hotline p {
+  margin-bottom: 10px;
+}
+.copyright {
+  display: flex;
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 60px;
+}
+.copyright a {
+  text-decoration: none;
+  color: #000;
+}
+.copyright img {
+  margin: 15px 0 0 0;
+  width: 90px;
+  height: 30px;
+}
+.copyright-follow {
+  margin-left: 650px;
+  margin-top: 5px;
+}
+.social-ft {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+}
+.copyright-follow a {
+  display: inline-block;
+  margin-left: 10px;
+}
+.copyright-footer {
+  display: flex;
+  float: left;
+  margin: 15px;
+}
+.copyright-footer p {
+  width: 30%;
+  padding-right: 30px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.copyright-footer p:nth-child(2) {
+  width: 40%;
+}
